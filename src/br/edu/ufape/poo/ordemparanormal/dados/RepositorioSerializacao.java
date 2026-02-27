@@ -20,7 +20,7 @@ public class RepositorioSerializacao implements RepositorioDados{
              oos.writeObject(entidades);
 
              // TODO: Remover println e outros comentários quando ciarmos camada de interacao com usuario.
-             System.out.println("Entidades agora pertencem ao Outro Lado em: " + FILE + ".");
+             System.out.println("Entidades catalogadas no Outro Lado em: " + FILE + ".");
         }
         /* Comentado, pois não é responsabilidade desta camada.
         catch (IOException e) {
